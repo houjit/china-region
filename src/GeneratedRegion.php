@@ -1,5 +1,5 @@
 <?php
-namespace Yingou\ChinaRegion;
+namespace houjit\ChinaRegion;
 class GeneratedRegion
 {
     public static $table =array (

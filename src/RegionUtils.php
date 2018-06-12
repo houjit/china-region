@@ -1,11 +1,6 @@
 <?php
-namespace Yingou\ChinaRegion;
-/**
- * Created by PhpStorm.
- * User: yingouqlj
- * Date: 2017/3/12
- * Time: 上午2:35
- */
+namespace houjit\ChinaRegion;
+
 class RegionUtils
 {
 

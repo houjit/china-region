@@ -1,13 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: yingouqlj
- * Date: 17/3/13
- * Time: 下午5:03
- */
-
-namespace Yingou\ChinaRegion;
-
+namespace houjit\ChinaRegion;
 
 class ImportRegion
 {
