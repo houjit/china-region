@@ -1,7 +1,7 @@
 {
   "name": "houjit/houjit-region",
   "description": "china region 中国城市代码表",
-  "license": "HOUJIT",
+  "license": "MIT",
   "authors": [
     {
       "name": "houjit",
