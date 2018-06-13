@@ -1,20 +1,20 @@
 {
-  "name": "yingouqlj/china-region",
+  "name": "houjit/houjit-region",
   "description": "china region 中国城市代码表",
   "license": "MIT",
   "authors": [
     {
-      "name": "yingou",
-      "email": "yingouqlj@gmail.com"
+      "name": "houjit",
+      "email": "amos@houjit.com"
     }
   ],
   "require": {
-    "php":">=5.5.0"
+    "php":">=7.0.0"
   },
   "minimum-stability" : "dev",
   "autoload": {
     "psr-4": {
-      "Yingou\\ChinaRegion\\": "src/"
+      "houjit\\ChinaArea\\": "src/"
     }
   }
 }
