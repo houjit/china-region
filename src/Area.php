@@ -14,10 +14,10 @@ class Area
         if (!count($row) > 4) {
             throw new \Exception('area row error');
         }
-        $this->id = $row[RegionTable::COLUMN_ID];
-        $this->name = $row[RegionTable::COLUMN_NAME];
-        $this->title = $row[RegionTable::COLUMN_TITLE];
-        $this->parentId = $row[RegionTable::COLUMN_PARENT_ID];
+        $this->id = $row[AreaTable::COLUMN_ID];
+        $this->name = $row[AreaTable::COLUMN_NAME];
+        $this->title = $row[AreaTable::COLUMN_TITLE];
+        $this->parentId = $row[AreaTable::COLUMN_PARENT_ID];
     }
 
     public function getId()
@@ -50,7 +50,7 @@ class Area
         if ($this->parentId == self::DEFAULT_PARENT_ID) {
             return $this;
         }
-        $parentArea = RegionUtils::findByCode($this->parentId);
+        $parentArea = AreaUtils::findByCode($this->parentId);
         if ($parentArea) {
             return $parentArea->getProvince();
         }
